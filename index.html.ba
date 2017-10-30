@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parenting with Purpose</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type=text/css>
+  </head>
+<body>
+  <header>
+
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+          </div>
+          <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div><!-- navbar-header -->
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-left">
+            <li>
+              <a href="http://www.raisingigen.com/blog"><br class="hidden-xs"> Raising iGen Blog</a>
+            </li>
+            <li>
+              <a href="http://www.raisingigen.com/resources/"><br class="hidden-xs"> Resources</a>
+            </li>
+             <li>
+              <a href="http://www.raisingigen.com/about/"><br class="hidden-xs"> About</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+
+      </div><!-- container -->
+    </nav>
+
+
+    <div id="top-content" class="container">
+      <div class="row justify-content-center">
+
+        <div id="first-cell" class="col-xs-3 hidden-sm hidden-md hidden-lg">
+          <img src="images/body-image-45-c.png" alt="Body">
+        </div>
+        <div class="col-sm-3 hidden-xs hidden-md hidden-lg">
+          <img src="images/body-image-60-c.png" alt="Body">
+        </div>
+        <div class="col-md-3 hidden-xs hidden-sm hidden-lg">
+          <img src="images/body-image-85-c.png" alt="Body">
+        </div>
+
+
+
+        <div class="col-xs-3 hidden-sm hidden-md hidden-lg">
+          <img src="images/mind-image-45-c.png" alt="Mind">
+        </div>
+        <div class="col-sm-3 hidden-xs hidden-md hidden-lg">
+          <img src="images/mind-image-60-c.png" alt="Mind">
+        </div>
+
+        <div class="col-xs-3 hidden-sm hidden-md hidden-lg">
+          <img src="images/emotion-image-45-c.png" alt="Mind">
+        </div>
+        <div class="col-sm-3 hidden-xs hidden-md hidden-lg">
+          <img src="images/emotion-image-60-c.png" alt="Mind">
+        </div>
+
+        <div class="col-xs-3 hidden-sm hidden-md hidden-lg">
+          <img src="images/heart-in-hand-45-c.png" alt="Mind">
+        </div>
+        <div class="col-sm-3 hidden-xs hidden-md hidden-lg">
+          <img src="images/heart-in-hand-60-c.png" alt="Mind">
+        </div>
+
+
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          Parenting with Purpose
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <div id="main-content" class="container">
+
+    <div class="row justify-content-center">
+
+      <div class="col-lg-9">
+        <img src="images//Logo/Logo-Dark-800x445.png" alt="Body">
+      </div>
+      <div> class"col-lg-3">
+        <img src="images/Heather_1007-204x300.png">
+      </dov>
+
+    </div>
+
+
+
+    <div id="body-text" class="container">
+      <h2>Survival of the Focused</h2>
+      <p>
+        Parenting with Purpose provides the blueprint
+        that enables us to shift from parenting to survive,
+        to raising the next generation to thrive -  in a distracted world.
+        It’s survival of the focused.  This canvass provides the
+        necessary map for modeling, teaching, and focusing wellbeing
+        and purpose for ourselves, our families, and our children.
+        <p>
+          As Socrates taught “the unexamined life is not worth living.”
+          The first step educates and solidifies a strong sense of what
+          it is to be “me,” providing the foundations for examining well-being,
+          mindfulness and happiness.  The next step demonstrates why we must
+          evolve our thinking into a “survival of the focused” mentality.
+          The tipping point is narrowly defining how the “me” fits into the
+          “we” allowing us to define and illustrate our purpose and joy.
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
