@@ -51,7 +51,12 @@ body {
   */
 }
 
+#logocell {
 
+  /*background-color: #000000;*/
+
+
+}
 .ctct-form-embed.form_0 .ctct-form-defaults .ctct-form-header {
 
   font-size: 14px;
@@ -66,8 +71,8 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
 
 #content {
   background-color: #550055;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-top: 20px;
   margin-bottom: 20px;
   min-width: 300px;
@@ -79,18 +84,17 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
 
 #top-content {
   background-color: #FFFFFF;
-  margin-left: 20px;
-
-  margin-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0px;
   margin-bottom: 0px;
+  border: 0px;
+
   min-width: 300px;
-
-
   text-transform: uppercase;
+/*  color: white; */
   font-size: 40px;
   font-family: 'Merriweather', serif;
-
   text-align: center;
 
 }
