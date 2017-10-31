@@ -103,17 +103,12 @@ div.centerImage {
 
 
 }
+
 .ctct-form-embed.form_0 .ctct-form-defaults .ctct-form-header {
-
-  font-size: 14px;
+    color: #000000;
 }
 
-div.ctct-form-embed form.ctct-form-custom label.ctct-form-label {
-    font-size: 14px;
-}
-div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
-  height: 30px;
-}
+
 
 #content {
   background-color: #550055;
