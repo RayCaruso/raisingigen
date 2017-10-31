@@ -3,19 +3,63 @@ body {
   color: #000000;
   /* background-color: #003300;*/
   font-family: 'Oxygen', sans-serif;
+  background-color: #edf8f2;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: white;
+  /* background-color: #53b887;*/
+  background-color: #92d3b4;
   border-radius: 0;
   border: 0;
   padding-bottom: 0px;
 }
 
+#second-nav {
+  background-color: LightGray;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 0px;
+}
+
+.nav>li>a {
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+img.brandpic {
+  margin-top: 10px;
+}
+img.biopic {
+  max-width: 100%;
+  height: auto;
+  margin: 20px;
+  float: left;
+}
+
+div.centerImage {
+     text-align: center;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+
+#nav-image {
+  /* position: absolute;
+  top: 0; bottom:0; left: 0; right:0;
+  margin: auto;
+  */
+}
+
+.navbar {
+  margin-bottom: 0
+}
 .navbar-brand {
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
 }
 
 .navbar-brand h1 { /* Restaurant name */
@@ -43,12 +87,14 @@ body {
 
 #nav-list a {
   text-align: center;
+  margin-left: 100px;
 }
 
 #nav-list a:hover {
   /*
   background: white;
   */
+
 }
 
 #logocell {
@@ -80,6 +126,8 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
 
 #top-row {
 
+  margin-left: 100px;
+  margin-right: auto;
 }
 
 #top-content {
@@ -108,14 +156,14 @@ div.ctct-form-embed form.ctct-form-custom input.ctct-form-element {
 
 }
 
-#top-content .row div {
-/*
-  border-style: outset;
+#tag-line {
+
+  border-style: groove;
   border-width: thin;
-  border-bottom: 0;
+
   border-right: 0;
   border-left: 0;
-*/
+
 }
  #first-cell div {
   border-left: 0;
@@ -170,18 +218,14 @@ p {
 
 
 @media (min-width: 1200px) {
-  .navbar-brand {
-    padding-bottom: 100px;
-  }
+
   #top-content {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .navbar-brand {
-    padding-bottom: 60px;
-  }
+
   #top-content {
     font-size: 30px;
   }
@@ -190,9 +234,7 @@ p {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .navbar-brand {
-    padding-bottom: 30px;
-  }
+
   #top-content {
     font-size: 20px;
   }
@@ -200,9 +242,7 @@ p {
 }
 
 @media (max-width: 767px) {
-  .navbar-brand {
-    padding-bottom: 30px;
-  }
+
   #top-content {
     font-size: 12px;
     text-align: left;
