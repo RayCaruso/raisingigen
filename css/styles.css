@@ -1,254 +1,163 @@
-body {
-  font-size: 16px;
-  color: #000000;
-  /* background-color: #003300;*/
-  font-family: 'Oxygen', sans-serif;
-  background-color: #edf8f2;
+html,body {
+  height:100%;
 }
 
-/** HEADER **/
-#header-nav {
-  /* background-color: #53b887;*/
-  background-color: #92d3b4;
-  border-radius: 0;
-  border: 0;
-  padding-bottom: 0px;
+#nav {
+  opacity: 0.5;
+
 }
 
-#second-nav {
-  background-color: LightGray;
-  border-radius: 0;
-  border: 0;
-  padding-bottom: 0px;
-}
+.icon-bar {
+  color: black;
 
-.nav>li>a {
-  padding: 0;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-img.brandpic {
-  margin-top: 10px;
-}
-img.biopic {
-  max-width: 100%;
-  height: auto;
-  margin: 20px;
-  float: left;
-}
-
-div.centerImage {
-     text-align: center;
-     margin-top: 20px;
-     margin-bottom: 20px;
-}
-
-#nav-image {
-  /* position: absolute;
-  top: 0; bottom:0; left: 0; right:0;
-  margin: auto;
-  */
 }
 
 .navbar {
-  margin-bottom: 0
+  min-height: 30px;
+}
+
+.navbar-toggle {
+  color: black;
+
+}
+
+ul#nav-list {
+  padding-top: 15px;
 }
 .navbar-brand {
-  padding-top: 0px;
-  padding-bottom: 0px;
-
-}
-
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
-/*
-#nav-list {
-  margin-top: 10px;
-  margin-bottom: 0px;
-  background-color: white;
-}
-
-*/
-
-#nav-list a {
-  text-align: center;
-  margin-left: 100px;
-}
-
-#nav-list a:hover {
-  /*
-  background: white;
-  */
-
-}
-
-#logocell {
-
-  /*background-color: #000000;*/
-
-
-}
-
-.ctct-form-embed.form_0 .ctct-form-defaults .ctct-form-header {
-    color: #000000;
-}
-
-
-
-#content {
-  background-color: #550055;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  min-width: 300px;
-}
-
-#top-row {
-
-  margin-left: 100px;
-  margin-right: auto;
-}
-
-#top-content {
-  background-color: #FFFFFF;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border: 0px;
-
-  min-width: 300px;
-  text-transform: uppercase;
-/*  color: white; */
-  font-size: 40px;
-  font-family: 'Merriweather', serif;
-  text-align: center;
-
-}
-
-#top-content .row {
-
-
-
-  padding-top: 0px;
-  padding-bottom: 0px;
-
-}
-
-#tag-line {
-
-  border-style: groove;
-  border-width: thin;
-
-  border-right: 0;
-  border-left: 0;
-
-}
- #first-cell div {
-  border-left: 0;
-}
-
-
-
-/*
-#main-content {
-  text-align: center;
-  align-items: center;
-  align-content: center;
-}
-*/
-
-.container .jumbotron {
-/*  box-shadow: 0 0 50px #3F0C1F;*/
-/*  border: 2px solid #3F0C1F; */
-  background-color: white;
-}
-
-.container .jumbotron img {
-
-  dislay: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.jumbotron {
   padding-top: 10px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
-h2 {
-  font-size: 30px;
-  font-family: 'Merriweather', serif;
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+    color: white;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:focus {
+    background: #44c7e3;
+    border: 1px solid #44c7e3;
+    font-weight: 600;
+    outline: none;
+    color: #fff;
+    border-radius: 20px;
+    padding-top: 0px;
+    margin-top: 0;
+    /* padding: 3px 18px; */
+}
+
+.first {
+  height:100vh;
+  min-height:400px;
+  background-size:cover;
+  /*background-image: url('http://localhost:3000/images/happy-family.jpg');*/
+  background-image: url('http://localhost:3000/images/happy-family-green-overlay.png');
+  opacity: 0.5;
+}
+
+.tag-line {
+  padding-top: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  font-size: 46px;
+  /*color: #92d3b4;*/
+  color: white;
   font-weight: bold;
-  text-align: left;
+}
+
+#tag-line-signup {
+  background: #44c7e3;
+  border: 1px solid #44c7e3;
+  /*font-weight: 600;*/
+  font-size: 20px;
+  outline: none;
+  color: #fff;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+.header-line .h2 {
+  font-size: 46px;
+  color: white;
+}
+
+.affix {
+  -webkit-transition:padding 0.2s ease-out;
+  -moz-transition:padding 0.2s ease-out;
+  -o-transition:padding 0.2s ease-out;
+  transition:padding 0.2s ease-out;
 
 }
 
-p {
-  font-size: 14px;
-  font-family: 'Lato', sans-serif;
-  text-align: left;
-}
 
 
-
-
-
-
-@media (min-width: 1200px) {
-
-  #top-content {
-    font-size: 50px;
+@media (min-width:768px) {
+    .affix-top {
+      /* navbar style at top */
+      background:transparent;
+      border-color:transparent;
+      padding: 15px;
+      -webkit-transition:all 0.5s ease;
+      -moz-transition:all 0.5s ease;
+      -o-transition:all 0.5s ease;
+      transition:all 0.5s ease;
+    }
+    .navbar-nav>li>a {
+      padding-top: 0;
+      padding-bottom: 0;
   }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-
-  #top-content {
-    font-size: 30px;
-  }
-
-
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-  #top-content {
-    font-size: 20px;
-  }
-
 }
 
 @media (max-width: 767px) {
-
-  #top-content {
-    font-size: 12px;
-    text-align: left;
+  .header-line {
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 46px;
+    /*color: #92d3b4;*/
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
   }
+}
 
-  h2 {
-    font-size: 14px;
-
+@media (max-width: 410px) {
+  .header-line {
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 46px;
+    /*color: #92d3b4;*/
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
   }
-  p {
-    font-size: 12px;
-  }
+  .navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
+.affix-top .nav>li>a {
+   color: #000;
+}
+
+.affix-top.navbar .nav>li>a:hover,
+.affix-top.navbar .navbar-brand
+{
+   color: #333;
+}
+
+section {
+  height:calc(90% - 50px);
+  height: 90vh;
 }
