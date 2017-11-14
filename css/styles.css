@@ -3,7 +3,7 @@ html,body {
 }
 
 #nav {
-  opacity: 0.5;
+  /*opacity: 0.9;*/
 
 }
 
@@ -35,23 +35,24 @@ ul#nav-list {
 }
 
 .btn-primary, .btn-primary:active, .btn-primary:focus {
-    background: #44c7e3;
-    border: 1px solid #44c7e3;
+    background: #187eda;
+    border: 1px solid #187eda;
     font-weight: 600;
     outline: none;
-    color: #fff;
+    color: #ffffff;
     border-radius: 20px;
     padding-top: 0px;
     margin-top: 0;
     /* padding: 3px 18px; */
 }
 
+
 .first {
   height:100vh;
   min-height:400px;
   background-size:cover;
-  /*background-image: url('http://localhost:3000/images/happy-family.jpg');*/
-  background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay.png');
+  background-image: url('http://localhost:3000/images/happy-family-green-overlay-darken.png');
+/*  background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay.png');*/
   opacity: 0.5;
 }
 
@@ -60,19 +61,18 @@ ul#nav-list {
   padding-left: 100px;
   padding-right: 100px;
   text-align: center;
-  font-size: 46px;
-  /*color: #92d3b4;*/
   color: white;
   font-weight: bold;
 }
 
-#tag-line-signup {
-  background: #44c7e3;
-  border: 1px solid #44c7e3;
-  /*font-weight: 600;*/
+
+#tag-line-signup,  #tag-line-signup:active, #tag-line-signup:focus {
+  background: #187eda;
+  border: 1px solid #187eda;
+
   font-size: 20px;
   outline: none;
-  color: #fff;
+  color: #ffffff;
   border-radius: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -80,6 +80,8 @@ ul#nav-list {
   padding-right: 20px;
   margin-top: 50px;
 }
+
+
 .header-line .h2 {
   font-size: 46px;
   color: white;
@@ -90,62 +92,10 @@ ul#nav-list {
   -moz-transition:padding 0.2s ease-out;
   -o-transition:padding 0.2s ease-out;
   transition:padding 0.2s ease-out;
-
+  background:transparent;
+  border-color:transparent;
 }
 
-
-
-@media (min-width:768px) {
-    .affix-top {
-      /* navbar style at top */
-      background:transparent;
-      border-color:transparent;
-      padding: 15px;
-      -webkit-transition:all 0.5s ease;
-      -moz-transition:all 0.5s ease;
-      -o-transition:all 0.5s ease;
-      transition:all 0.5s ease;
-    }
-    .navbar-nav>li>a {
-      padding-top: 0;
-      padding-bottom: 0;
-  }
-}
-
-@media (max-width: 767px) {
-  .header-line {
-    padding-top: 200px;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-    font-size: 46px;
-    /*color: #92d3b4;*/
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
-    color: white;
-  }
-}
-
-@media (max-width: 410px) {
-  .header-line {
-    padding-top: 200px;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-    font-size: 46px;
-    /*color: #92d3b4;*/
-    color: white;
-    font-weight: bold;
-    font-size: 24px;
-    color: white;
-  }
-  .navbar-brand {
-    padding-top: 10px;
-    padding-bottom: 0;
-    padding-left: 5px;
-    padding-right: 5px;
-}
 
 .affix-top .nav>li>a {
    color: #000;
@@ -161,3 +111,92 @@ section {
   height:calc(90% - 50px);
   height: 90vh;
 }
+
+
+/* Start of media queries */
+
+@media (max-height: 500px ) {
+
+  .tag-line {
+    padding-top: 100px;
+    }
+
+    #tag-line-signup {
+      margin-top: 20px;
+    }
+}
+
+@media (max-height: 400px ) {
+
+  .tag-line {
+    padding-top: 50px;
+    }
+
+    #tag-line-signup {
+      margin-top: 10px;
+    }
+}
+
+
+@media (min-width:768px) {
+
+    .navbar-nav>li>a {
+      padding-top: 0;
+      padding-bottom: 0;
+  }
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+  .tag-line {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 24px;
+    }
+
+  .navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .tag-line {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .tag-line {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 36px;
+  }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .tag-line {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 42px;
+  }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .tag-line {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 48px;
+  }
+ }
