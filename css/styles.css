@@ -51,7 +51,7 @@ ul#nav-list {
   min-height:400px;
   background-size:cover;
   /*background-image: url('http://localhost:3000/images/happy-family.jpg');*/
-  background-image: url('http://localhost:3000/images/happy-family-green-overlay.png');
+  background-image: url('images/happy-family-green-overlay.png');
   opacity: 0.5;
 }
 
