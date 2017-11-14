@@ -51,8 +51,8 @@ ul#nav-list {
   height:100vh;
   min-height:400px;
   background-size:cover;
-  background-image: url('http://localhost:3000/images/happy-family-green-overlay-darken.png');
-/*  background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay.png');*/
+/*  background-image: url('http://localhost:3000/images/happy-family-green-overlay-darken.png'); */
+  background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken.png');
   opacity: 0.5;
 }
 
