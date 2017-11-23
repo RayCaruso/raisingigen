@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app='RaisingIGenApp'>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,55 +13,14 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type=text/css>
   </head>
-  <!-- Begin Constant Contact Active Forms -->
-<script> var _ctct_m = "078b4d7cd1f2aff59b3bf471c6ab09ac"; </script>
-<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
-<script src="js/script.js"></script>
-<script src="js/affix.js"></script>
+
+
 <!-- End Constant Contact Active Forms -->
 
 <body>
   <div>
-  <div id="nav" class="navbar navbar-inverse navbar-fixed-top" data-spy="affix">
-    <a class="navbar-brand" href="#">
-        <img class="brandpic" src="images/Logo/Logo-no-words.png" width="30" height="30">
-    </a>
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img class="brandpic" src="images/Logo/Logo-Text-White-243x30.png" width="243" height="30">
-      </a>
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-      </div>
-      <div id="nav-bar-line">
-        <div id="collapsable-nav1" class="collapse navbar-collapse">
-         <ul id="nav-list" class="nav navbar-nav navbar-right">
-           <li>
-             <a  href="#">Home</a>
-           </li>
-           <li>
-            <a href="http://www.raisingigen.com">Blog</a>
-          </li>
-           <li>
-            <a href="http://www.raisingigen.com">About</a>
-          </li>
-          <li>
-            <a href="http://www.raisingigen.com">Disclosures</a>
-          </li>
-          <li>
-            <a class="btn btn-primary" href="#">Sign Up</a>
-          </li>
-        </ul><!-- #nav-list -->
-      </div><!-- .collapse .navbar-collapse -->
-      </div>
-    </div>
-  </div><!-- /.navbar -->
-</div>
+    <rig-menu-header></rig-menu-header>
+  </div>
 
 <section class="first">
 
@@ -69,7 +28,7 @@
       I help families create purpose + achieve prosperity in a distracted world.
   </div>
   <div style=text-align:center;"">
-    <button id="tag-line-signup">Sign Up</button>
+    <a id="tag-line-signup" href="newsletter-signup.html">Sign Up</a>
   </div>
 
 </section>
@@ -104,12 +63,23 @@
 
 </section>
 
-<div class="footer">
-  <p> &copy; 2017 Intentional prosperity, LLC<br>All Rights Reservered</p>
-</div>
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+<rig-footer></rig-footer>
+
+
+  <!--- JS Libraries--->
+  <script src="lib/jquery-2.1.4.min.js"></script>
+  <script src="lib/bootstrap.min.js"></script>
+  <script src="lib/angular.min.js"></script>
+
+  <!---Nav-fix app--->
+  <script src="src/nav-fix/nav-toggle-fix.js"></script>
+
+  <!---RaisingiGen Applications--->
+
+  <!---RaisingIGen Header and Footer app--->
+  <script src="src/RIG-header-footer/js/RIG-header-footer.module.js"></script>
+  <script src="src/RIG-header-footer/js/RIG.header.component.js"></script>
+  <script src="src/RIG-header-footer/js/RIG.footer.component.js"></script>
+
 </body>
 </html>
