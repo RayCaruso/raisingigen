@@ -7,6 +7,14 @@ html,body {
 
 }
 
+.brandpic {
+  margin-right: 15px;
+
+}
+div.container {
+  margin-left: 5px;
+}
+
 .icon-bar {
   color: black;
 
@@ -29,6 +37,9 @@ ul#nav-list {
 .navbar-brand {
   padding-top: 10px;
   padding-bottom: 0;
+  padding-left: 5px;
+  padding-right: 0;
+  margin-left: 5px;
 }
 
   .navbar-nav>li>a {
@@ -41,7 +52,8 @@ ul#nav-list {
 }
 
 .btn-primary, .btn-primary:active, .btn-primary:focus {
-    background: #187eda;
+  /*  background: #187eda; */
+    background: #53b887;
     border: 1px solid #187eda;
     font-weight: 600;
     outline: none;
@@ -57,7 +69,7 @@ ul#nav-list {
   height:100vh;
   min-height:400px;
   background-size:cover;
-  background-image: url('http://localhost:3000/images/happy-family-green-overlay-darken-1500x1000.png');
+  background-image: url('http://localhost:3000/images/happy-family-green-overlay-darken-1000x666.png');
   /* background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1500x1000.png');*/
   opacity: 0.5;
 }
@@ -67,11 +79,11 @@ ul#nav-list {
 /*  min-height:400px;*/
   background-color: #92d3b4;
   color: white;
-  /*
+
   background-size:cover;
-  background-image: url('http://localhost:3000/images/happy-family-green-overlay-darken-1500x1000.png');
-  background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1500x1000.png');
-  */
+  background-image: url('http://localhost:3000/images/school-800x800-Green-Overlay.png');
+
+
 }
 
 .subpage-maincontent {
@@ -83,10 +95,7 @@ ul#nav-list {
   color: white;
 }
 
-#bio {
-  font-size: 16px;
-  padding: 20px;
-}
+
 
 #spam-policy {
   font-size: 20px;
@@ -214,6 +223,14 @@ section {
     padding-right: 50px;
     font-size: 24px;
     }
+    .bio {
+      font-size: 16px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .navbar-brand {
+      margin-left: 5px;
+    }
 /*
   .navbar-brand {
     padding-top: 10px;
@@ -231,6 +248,14 @@ section {
     padding-right: 50px;
     font-size: 30px;
   }
+  .bio {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+.navbar-brand {
+    margin-left: 5px;
+  }
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -239,6 +264,14 @@ section {
     padding-left: 50px;
     padding-right: 50px;
     font-size: 36px;
+  }
+  .bio {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+   .navbar-brand {
+    margin-left: 5px;
   }
  }
 
@@ -249,6 +282,14 @@ section {
     padding-right: 50px;
     font-size: 42px;
   }
+  .bio {
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+ .navbar-brand {
+    margin-left: 5px;
+  }
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -258,4 +299,10 @@ section {
     padding-right: 50px;
     font-size: 48px;
   }
+  .bio {
+    font-size: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
  }
