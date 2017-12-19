@@ -69,8 +69,8 @@ ul#nav-list {
   height:100vh;
   min-height:400px;
   background-size:cover;
-  background-image: url('http://localhost:3000/images/happy-family-green-overlay-darken-1000x666.png');
-  /* background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1500x1000.png');*/
+/*  background-image: url('http://localhost:3000/images/happy-family-green-overlay-darken-1000x666.png');*/
+  background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1000x666.png');
   opacity: 0.5;
 }
 
@@ -81,7 +81,8 @@ ul#nav-list {
   color: white;
 
   background-size:cover;
-  background-image: url('http://localhost:3000/images/school-800x800-Green-Overlay.png');
+  /* background-image: url('http://localhost:3000/images/school-800x800-Green-Overlay.png');*/
+  background-image: url('https://raycaruso.github.io/raisingigen/images/school-800x800-Green-Overlay.png');
 
 
 }
