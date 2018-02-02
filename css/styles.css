@@ -220,7 +220,7 @@ section {
   .first {
   background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-400x266.png');
 /*  background-image: url('http://localhost:3000/images/happy-family-green-overlay-darken-400x266.png');*/
-    background-size: 350;
+    background-size: cover;
     opacity: 0.5;
   }
   .tag-line {
