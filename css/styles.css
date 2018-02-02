@@ -66,11 +66,8 @@ ul#nav-list {
 
 
 .first {
-  height:100vh;
-  min-height:400px;
-  background-size:cover;
-/*  background-image: url('http://localhost:3000/images/happy-family-green-overlay-darken-1000x666.png');*/
-  background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1000x666.png');
+  background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1200x800.png');
+  background-size: cover;
   opacity: 0.5;
 }
 
@@ -82,7 +79,9 @@ ul#nav-list {
 
   background-size:cover;
   /* background-image: url('http://localhost:3000/images/school-800x800-Green-Overlay.png');*/
-  background-image: url('https://raycaruso.github.io/raisingigen/images/school-800x800-Green-Overlay.png');
+  /*  background-image: url('https://raycaruso.github.io/raisingigen/images/school-800x800-Green-Overlay.png');*/
+
+  background: url('https://raycaruso.github.io/raisingigen/images/school-800x800-Green-Overlay.png') no-repeat center fixed;
 
 
 }
@@ -218,7 +217,12 @@ section {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
-
+  .first {
+/*    background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-400x266.png');*/
+  background-image: url('http://localhost:3000/images/happy-family-green-overlay-darken-400x266.png');
+    background-size: cover;
+    opacity: 0.5;
+  }
   .tag-line {
     padding-left: 50px;
     padding-right: 50px;
@@ -232,18 +236,11 @@ section {
     .navbar-brand {
       margin-left: 5px;
     }
-/*
-  .navbar-brand {
-    padding-top: 10px;
-    padding-bottom: 0;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-*/
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
+
   .tag-line {
     padding-left: 50px;
     padding-right: 50px;
@@ -261,6 +258,7 @@ section {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
+
   .tag-line {
     padding-left: 50px;
     padding-right: 50px;
@@ -278,6 +276,7 @@ section {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {
+
   .tag-line {
     padding-left: 50px;
     padding-right: 50px;
@@ -291,10 +290,14 @@ section {
  .navbar-brand {
     margin-left: 5px;
   }
+
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+
+
   .tag-line {
     padding-left: 50px;
     padding-right: 50px;
