@@ -242,7 +242,11 @@ section {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
-
+  .first {
+  background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1200x800.png');
+  /*  background-size: cover;
+    opacity: 0.5; */
+  }
   .tag-line {
     padding-left: 50px;
     padding-right: 50px;
