@@ -69,7 +69,9 @@ ul#nav-list {
 /* background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1200x800.png');*/
 /* Mobile first */
 
-  background-image: url('http://localhost:3000/images/Test-Image-750x1334.png');
+  /*background-image: url('http://localhost:3000/images/Test-Image-750x1334.png');*/
+
+  background-color: red;
 
   background-position: center top;
   background-size: cover;
@@ -225,7 +227,7 @@ section {
 
   .first {
     /*background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1430x2531.png');*/
-  background-image: url('http://localhost:3000/images/Test-Image-750x1334.png');
+  /*background-image: url('http://localhost:3000/images/Test-Image-750x1334.png');*/
   }
 
   .tag-line {
