@@ -70,6 +70,7 @@ ul#nav-list {
 /* Mobile first */
 
   background-image: url('https://raycaruso.github.io/raisingigen/images/Test-Image-750x1334.png')
+  
   background-position: center top;
   background-size: cover;
   opacity: 0.5;
