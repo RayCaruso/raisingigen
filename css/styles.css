@@ -66,7 +66,10 @@ ul#nav-list {
 
 
 .first {
-  background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1200x800.png');
+/*  background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1200x800.png');*/
+/* Mobile first */
+
+  background-image: url('https://raycaruso.github.io/raisingigen/images/Test-Image-750x1334.png')
   background-position: center top;
   background-size: cover;
   opacity: 0.5;
@@ -216,13 +219,12 @@ section {
 }
 
 
-/* Extra small devices (portrait phones, less than 576px) */
+/* Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575px) {
 
   .first {
     background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1430x2531.png');
-  /*  background-size: cover;
-    opacity: 0.5; */
+
   }
 
   .tag-line {
@@ -239,13 +241,13 @@ section {
       margin-left: 5px;
     }
 }
+*/
 
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767px) {
   .first {
   background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1200x800.png');
-  /*  background-size: cover;
-    opacity: 0.5; */
+
   }
   .tag-line {
     padding-left: 50px;
@@ -261,8 +263,9 @@ section {
     margin-left: 5px;
   }
  }
+ */
 
-/* Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) {
 
   .tag-line {
@@ -279,8 +282,9 @@ section {
     margin-left: 5px;
   }
  }
+ */
 
-/* Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px) {
 
   .tag-line {
@@ -298,11 +302,10 @@ section {
   }
 
  }
+ */
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-
-
 
   .tag-line {
     padding-left: 50px;
@@ -316,3 +319,4 @@ section {
   }
 
  }
+*/
