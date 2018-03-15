@@ -220,12 +220,12 @@ section {
 }
 
 
-/* Extra small devices (portrait phones, less than 576px)
+/* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
 
   .first {
-    background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1430x2531.png');
-
+    /*background-image: url('https://raycaruso.github.io/raisingigen/images/happy-family-green-overlay-darken-1430x2531.png');*/
+  background-image: url('http://localhost:3000/images/Test-Image-750x1334.png');
   }
 
   .tag-line {
@@ -242,7 +242,7 @@ section {
       margin-left: 5px;
     }
 }
-*/
+
 
 /* Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767px) {
